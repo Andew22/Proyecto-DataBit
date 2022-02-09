@@ -1,0 +1,43 @@
+
+/*ESTILOS GLOBALES */
+
+        /*Reiniciamos los margin y padding a 0  */
+
+        /*Utilizamos box-sizing:border-box para que cuando le demos
+        una dimension a un contenedor y le pongamos un border o padding su tamano no cresca */
+
+
+        /*para tener mas control */
+
+        *{
+            margin: 0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+
+        /*utilizamos font size 62.5% para hacer que cada rem equivalga a 16 px , es una medida 
+        relativa */
+
+        html{
+        font-size:62.5%;
+        font-family: 'DM Sans', sans-serif;;
+        }
+
+
+        /* Variables */
+        :root{
+
+            /*Colores*/
+            --BitcoinOrange:#F7931A;
+            --softOrange:#FFE9D4;
+            --secondayBlue:#1A9AF7;
+            --softBlue:#E7F5FF;
+            --warmBlack:#201E1C;
+            --warmBlack1:#282623;
+            --grey:#BABABA;
+            --ofWhite:#FAF8F7;
+            --justWhite:#FFFFFF;
+        }
+
+
+
